@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta char="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="songs.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+    <title>Song Guessing Game</title>
+  </head>
+  <body class="overlay">
+    <div class="page-header">
+      <img class="logo-pic" src="knockouts.png">
+    </div>
+  <audio id="audio-preview" autoplay="autoplay" src=""></audio>
+    <div class="center">
+      <div class="main">
+        <div class="guesser">
+          <div id="blur-info">
+            <div id="blur-image">
+              <img class="preview-artwork" src=""/>
+            </div>
+            <div id="blur-data">
+              <span class="preview-artist-name"></span></br>
+              <span class="preview-track-name"></span></br>
+            </div>
+          </div>
+        </br>
+          <button class="btn btn-default gamebutton">submit</button>
+          <button class="btn btn-default gamebutton">submit</button>
+          </br>
+          <button class="btn btn-default gamebutton">submit</button>
+          <button class="btn btn-default gamebutton">submit</button>
+        </div>
+        <div class="scoreboard">
+          <div class="row">
+            <div class="boxscore boxP">
+              <h4>Round</h2>
+              <h6 class='guest score' id="round">0</h6>
+            </div>
+            <div class="boxscore boxP">
+              <h4>Punches</h4>
+              <h6 class='round score'id="score">0</h6>
+            </div>
+            <div class="boxscore boxP">
+              <h4>Combos</h4>
+              <h6 class='total score' id="streak">0</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="guessing-gameboard">
+    <div class=log>
+      <div class="answer">
+          <div class="col-md-2 imgholder">
+            <img class="artwork" src=""/>
+          </div>
+          <div class="col-md-10">
+            <div class=resize>
+              <span class="track-name"></span></br>
+              <span class="artist-name"></span></br>
+              <span class="genre"></span></br>
+              <span class="album"></span></br>
+            </div>
+          </div>
+     </div>
+</body>
+</html>
