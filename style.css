@@ -133,13 +133,14 @@ h6{
   font-family: 'Monda', sans-serif;
 }
 
-button, .btn, .btn-default, button:focus {
+button, .btn, .btn-default, button:focus, .btn:focus {
   margin: 2%;
   width: 46%;
   height: 50px;
   white-space: normal;
   background: rgba(196, 75, 55, 1);
   color: white;
+  outline: none;
 }
 
 
@@ -177,6 +178,7 @@ text-align: left;
 
 #gameover{
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 span{
